@@ -154,6 +154,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdrm.vendor \
     libfmq.vendor \
+    libhwc2on1adapter \
+    libhwc2onfbadapter \
     libvulkan
 
 # DRM
