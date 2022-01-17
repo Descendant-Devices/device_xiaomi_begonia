@@ -117,6 +117,10 @@ persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 ro.vendor.md_auto_setup_ims=1
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # IncrementalFS
 ro.incremental.enable=yes
 
