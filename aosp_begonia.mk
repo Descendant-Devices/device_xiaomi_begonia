@@ -13,7 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -25,15 +28,12 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := potato_begonia
+PRODUCT_NAME := aosp_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="begonia-user 11 RP1A.200720.011 V12.5.5.0.RGGMIXM release-keys" \
     PRODUCT_NAME="begonia"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_begonia.mk
+    $(LOCAL_DIR)/aosp_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_begonia-user \
-    potato_begonia-userdebug \
-    potato_begonia-eng
+    aosp_begonia-user \
+    aosp_begonia-userdebug \
+    aosp_begonia-eng

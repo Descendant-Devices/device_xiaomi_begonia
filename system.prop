@@ -15,9 +15,6 @@ vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,
 # Charger
 ro.charger.enable_suspend=true
 
-# Cutout (POSP)
-ro.potato.has_cutout=true
-
 # Dex
 persist.bg.dexopt.enable=true
 dalvik.vm.dexopt.secondary=true
