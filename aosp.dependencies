@@ -1,5 +1,10 @@
 [
   {
+    "repository" : "device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "remote"     : "descendant"
+  },
+  {
     "repository" : "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785"
   },
