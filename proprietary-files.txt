@@ -1512,17 +1512,12 @@ vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/libsoft_attestation_cert.so
 
 # Lights
-vendor/bin/hw/android.hardware.lights-service.mediatek
-vendor/etc/init/lights-mtk-default.rc
--vendor/etc/vintf/manifest/lights-mtk-default.xml
-vendor/lib/hw/lights.mt6785.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
 vendor/lib/libaalservice.so
 vendor/lib/libdre.so
 vendor/lib/librgbwlightsensor.so
-vendor/lib64/hw/lights.mt6785.so
 vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
