@@ -9,6 +9,7 @@
 
 # Hals
 /vendor/bin/hw/mfp-daemon                                               u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light-service\.xiaomi                 u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service    u:object_r:hal_displayfeature_default_exec:s0
 
 # Mi Thermald

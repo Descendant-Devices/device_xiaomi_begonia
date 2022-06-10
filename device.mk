@@ -226,6 +226,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
 
+# Light
+PRODUCT_PACKAGE += \
+    android.hardware.light-service.xiaomi
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
