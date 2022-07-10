@@ -227,7 +227,7 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
 
 # Light
-PRODUCT_PACKAGE += \
+PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # Media
