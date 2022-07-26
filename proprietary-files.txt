@@ -1741,10 +1741,6 @@ vendor/etc/mdota/MTK_OTA.mcfota
 # Sensors
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
-vendor/lib/hw/sensors.touch.so
-vendor/lib/libakm.so
-vendor/lib/libhwm.so
-vendor/lib/libssccalapi.so
 vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so
 vendor/lib64/hw/sensors.mt6785.so
 vendor/lib64/hw/sensors.touch.so
