@@ -854,8 +854,6 @@ vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.beanpod.so
-vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/libSoftGatekeeper.so
 
