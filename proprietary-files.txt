@@ -786,16 +786,9 @@ vendor/etc/screen_light.xml
 vendor/etc/tianma_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml
 
 # DRM
-system_ext/lib/drm/cta/libdrmctaplugin.so
-system_ext/lib/libdrmmtkutil.so
-system_ext/lib/libdrmmtkwhitelist.so
 system_ext/lib64/drm/cta/libdrmctaplugin.so
 system_ext/lib64/libdrmmtkutil.so
 system_ext/lib64/libdrmmtkwhitelist.so
-vendor/lib/liboemcrypto.so
-vendor/lib/libtlcWidevineModularDrm.so
-vendor/lib/libwvkeybox.so
-vendor/lib/libwvkeyboxext.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libwvkeybox.so
@@ -805,8 +798,6 @@ vendor/lib64/libwvkeyboxext.so
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
